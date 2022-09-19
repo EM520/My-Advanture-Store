@@ -1,0 +1,146 @@
+
+body{
+    width: 120vw;
+    background-color: #6abbe0;
+    
+}
+/* @font-face {
+  font-family: sansation;
+  src: url(sansation_light.woff);
+
+  }
+
+  @font-face {
+    font-family: sansation;
+    src: url(sansation_light.woff);
+    font-weight: bold;
+    } */
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+  
+}
+nav ul li{
+  padding-right: 10px;
+  font-weight: bolder;
+  color: aliceblue;
+  
+}
+
+#proTable{
+  font-size: 20px;
+  /* border:3px solid red; */
+  padding-left: 2em;
+  padding-top: 5em;
+  padding-bottom: 2em;
+  margin-top: 1em;
+  
+}
+.thumbnails{
+  display: flex;
+  flex-direction: row;
+  height: 15em;
+  /* border-bottom: 2px solid whitesmoke; */
+}
+.thumbnails img{
+  height: 200px;
+  border:4px solid aliceblue;
+  border-radius: 5%;
+  padding: 1px;
+  margin:0 10px 10px 0;
+}
+
+.thumbnails img:hover{
+  border:4px solid #00ccff;
+}
+
+.preview img{
+  border:4px solid aliceblue ;
+  padding: 2px;
+  width: 1000px;
+}
+.tfoot{
+  color:aliceblue;
+}
+#rate{
+  /* border:4px solid aliceblue ; */
+  padding-left: 2em;
+  padding-top: 5em;
+  padding-bottom: 3em;
+  margin-top: 1em;
+  color:aliceblue;
+  font-size: 20px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    grid-template-rows:0.5fr 3fr 0.3fr;
+    
+    grid-template-areas: 
+    "header header header header"
+    "sidebar main main main "
+    "footer footer footer footer ";
+    
+    height: 100vh;
+    gap:1em;
+    width: 95vw;
+    margin-left: 30px;
+  }
+  
+  .item-a {
+    grid-area: header;
+    color:aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    text-align: center;
+    background-size: cover;
+    background-image: url();
+    /* border:5px solid rgb(0, 255, 42); */
+    padding-top: 30px;
+   
+    
+  }
+  .item-b {
+    grid-area: main;
+    border:3px solid rgb(228, 229, 242);
+    border-radius: 10px;
+    
+    
+  }
+  .item-b div{display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 2em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+  }
+  h2{
+    color:whitesmoke;
+  }
+  img{
+    border-radius: 10%;
+    border:3px solid aliceblue;;
+  }
+  .item-c {
+    grid-area: sidebar;
+    
+    border:3px solid rgb(228, 229, 242);
+    border-radius: 10px;
+    background-color: #6abbe0;
+  }
+  .item-d {
+    grid-area: footer;
+    border-top: 3px solid rgb(228, 229, 242);
+    /* border:2px solid rgb(255, 0, 247); */
+  }
+  table{
+    color:aliceblue;
+  }
+ footer{
+  color:aliceblue;
+ }
+ 

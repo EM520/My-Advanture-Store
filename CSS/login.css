@@ -1,0 +1,109 @@
+body{
+    width: 100vw; 
+    font-family: arial;  
+    background-repeat: round;
+    animation-name: backgroudimg;
+    animation-duration: 10s;
+    background-image: url(../IMG/0cean1.jpg);
+}
+
+@keyframes backgroudimg {
+  0%{background-image: url(../IMG/michael-krahn-eGD69I3ODC4-unsplash.jpg);}
+  50%{background-image:url(../IMG/ocean.jpg);}
+  100%{background-img:url(../IMG/0cean1.jpg);}
+  
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    
+  }
+  nav ul li{
+    padding-right: 10px;
+    font-weight: bolder;
+    color: aliceblue;
+  }
+ 
+ .login{
+    /* border:3px solid #ff3860; */
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+
+ } 
+ #regBtn{
+  background-color: transparent;
+  border-style: dashed;
+  border-radius: 20%;
+  cursor: pointer;
+ }
+ .register{
+    /* border:3px solid #ff3860;
+     */
+    padding-bottom: 200px;
+    display: none;
+
+ } 
+  .form {
+    width: 300px;
+    margin: 18vh auto 0 auto;
+    padding: 20px;
+    background: linear-gradient(to bottom right, #52d4e2, #2db3c7, #18b4b4);
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+  }
+  
+  .form h1 {
+    color: white;
+    text-align: center;
+  }
+  
+  .form button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    background: linear-gradient(to top left, #52d4e2, #2db3c7);
+    border: none;
+    border-radius: 4px;
+  }
+  
+  #sub:hover {
+    cursor: pointer;
+  }
+  
+  .input-control {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-control input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-size: 12px;
+    padding: 10px;
+    width: 90%;
+  }
+  
+  .input-control input:focus {
+    outline: 0;
+  }
+  
+  .input-control.success input {
+    border-color: aqua;
+  }
+  
+  .input-control.error input {
+    border-color: #ff3860;
+  }
+  
+  .input-control .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+  }
+  

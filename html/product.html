@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="../CSS/product.css">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+    <style>
+        a { text-decoration: none; }
+        .grid-container header {
+        font-family: 'Tangerine', serif;
+        font-size: 100px;
+        text-shadow: 4px 4px 4px #aaa;
+      }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <a href="home.html">
+                    <li>Home</li>
+                </a>
+                <a href="login.html">
+                    <li>Login</li>
+                </a>
+                <a href="product.html">
+                    <li>Product</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <div class="grid-container">
+        <header class="item-a">Welcom To Advanture Space</header>
+      
+        <div class="item-b">
+            <div class="thumbnails">
+                <image onmouseover="preview.src=img1.src" name="img1"src="../IMG/product/hester-qiang-b3NaswrROkI-unsplash.jpg" width="300em" height="200em"style="vertical-align:maaiddle"></image>
+                <image onmouseover="preview.src=img2.src" name="img2"src="../IMG/product/jerry-wang-LXIH6QHz6ko-unsplash.jpg" width="300em" height="200em"style="vertical-align:maaiddle"></image>
+                <image onmouseover="preview.src=img3.src" name="img3"src="../IMG/product/mink-mingle-Riz1qAplMQk-unsplash.jpg"width="300em" height="200em"style="vertical-align:maaiddle"></image>
+                <image onmouseover="preview.src=img4.src" name="img4"src="../IMG/product/rock-n-roll-monkey-LEPhZkQbUrk-unsplash.jpg" width="300em" height="200em"style="vertical-align:maaiddle"></image>
+    
+            </div>
+            <div class="preview" align="center">
+                <img name="preview" src="../IMG/product/hester-qiang-b3NaswrROkI-unsplash.jpg" width="1200em" height="650em"style="vertical-align:maaiddle"alt="">
+            </div>
+           
+            <!-- <image src="../IMG/product/hester-qiang-b3NaswrROkI-unsplash.jpg" width="600em" height="400em"style="vertical-align:maaiddle"></image>
+            <image src="../IMG/product/jerry-wang-LXIH6QHz6ko-unsplash.jpg" width="600em" height="400em"style="vertical-align:maaiddle"></image>
+            <image src="../IMG/product/mink-mingle-Riz1qAplMQk-unsplash.jpg"width="600em" height="400em"style="vertical-align:maaiddle"></image>
+            <image src="../IMG/product/rock-n-roll-monkey-LEPhZkQbUrk-unsplash.jpg" width="600em" height="400em"style="vertical-align:maaiddle"></image> -->
+            
+        </div>
+
+
+        
+        <div class="item-c">
+            <h2>Pick your favorite product:
+                <select name="Products" id="products" >
+                    <option value="Car">CAR</option>
+                    <option value="Train">TRAIN</option>
+                    <option value="Robot">ROBOT</option>
+                    <option value="Cat">CAT</option>
+                </select>
+            </h2>
+            <div id="proTable">
+            <table >
+                <caption>Product Information</caption>
+                <tr>
+                    <th>Name</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Cat</td>
+                    <td>5</td>
+                    <td>$100.00</td>
+                </tr>
+                <tr>
+                    <td>Car</td>
+                    <td>3</td>
+                    <td>$150.00</td>
+                </tr>
+                <tr>
+                    <td>Train</td>
+                    <td>10</td>
+                    <td>$80.00</td>
+                </tr>
+                <tr>
+                    <td>Robot</td>
+                    <td>2</td>
+                    <td>$200.00</td>
+                </tr>
+
+            </table>
+            </div>
+            <tfoot class="tfoot ">*The price and quality varys in different store.</tfoot>
+            <iframe width="400" height="300" 
+            src="https://www.youtube.com/embed/tgbNymZ7vqY">
+            </iframe>
+        <div id="rate">
+            <form action="">
+            <label for="rateInput">Please rate our product (1-5):</label>
+            <input id ="rateInput" type="number" min="1" max="5" value="5" placeholder="input your number 0-5" >
+            <button  id="btn" type="submit" >Submit</button>
+            </form>
+            <div id="rateStar">
+                <p></p>
+            </div>
+            
+        </div>
+        
+            
+        </div>
+        <footer class="item-d">
+        <p align="center">Privacy Do Not Sell My Personal Information Terms & Conditions  Internet Based Ads California Supply Chain  Act     ©2022 Advanture Space</p>
+        </footer>
+    </div>
+    
+   <script src="../JS/product.js"></script>
+   <!-- <script>
+    const rate =document.querySelector("#rateStar p");
+    function myFunction(){
+        rate.innerHTML="Rated!!"
+    }
+
+
+   </script> -->
+
+</body>
+</html>
