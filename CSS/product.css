@@ -42,25 +42,30 @@ nav ul li{
 .thumbnails{
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   height: 15em;
-  /* border-bottom: 2px solid whitesmoke; */
+  
 }
 .thumbnails img{
-  height: 200px;
+  height: 80%;
+  width: 23%;
   border:4px solid aliceblue;
   border-radius: 5%;
-  padding: 1px;
-  margin:0 10px 10px 0;
+  
+  
 }
 
 .thumbnails img:hover{
   border:4px solid #00ccff;
 }
 
+
 .preview img{
   border:4px solid aliceblue ;
   padding: 2px;
-  width: 1000px;
+  width: 90%;
+  height: 70%;
+  
 }
 .tfoot{
   color:aliceblue;
@@ -85,7 +90,7 @@ nav ul li{
     "footer footer footer footer ";
     
     height: 100vh;
-    gap:1em;
+    gap:0.5em;
     width: 95vw;
     margin-left: 30px;
   }
@@ -103,20 +108,20 @@ nav ul li{
    
     
   }
-  .item-b {
+ 
+
+   .item-b {
     grid-area: main;
     border:3px solid rgb(228, 229, 242);
     border-radius: 10px;
-    
-    
-  }
-  .item-b div{display: flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     row-gap: 2em;
-    margin-top: 1em;
-    margin-bottom: 2em;
+    
+   
+    /* border:3px solid blue; */
   }
   h2{
     color:whitesmoke;
