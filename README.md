@@ -9,8 +9,8 @@ This is a 3 pages website by using the following technical skills:
   Use variables, if statements, loops, at least one form of collections, functions/call back, and events;
   Use JQuery.
 ## Installation
-### Fork the github/Advanture-Stroe-Frontend repo
-You'll be making your own copy of the "Advanture-Stroe-Frontend" repository so you can open the project by any editor. A "fork" is a copy of a repository. So select "Fork" atop the github/Advanture-Stroe-Frontend repository.
+### Fork the github/My-Advanture-Stroe repo
+You'll be making your own copy of the "My-Advanture-Stroe" repository so you can open the project by any editor. A "fork" is a copy of a repository. So select "Fork" atop the github/My-Advanture-Stroe repository.
 ## How to use
 Launch the website by click the [Home]( http://127.0.0.1:5500/html/home.html )
 
